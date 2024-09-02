@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note Book</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<button id="prev-btn">⬅️
+</button>
+<div id="book" class="book">
+  <!-- Paper 1 -->
+   
+  <div id="p1" class="paper">
+      <div class="front">
+          <div id="f1" class="front-content">
+              <h1 class="book-title" pattern="Write Book Title">My Journey</h1>
+             <!-- <img class="cover-img" src="./dog.jpg" alt="dog">--> 
+             
+             <form  action="index.html" method="post">
+              <img  alt="Add your image" style="  width: 240px;
+     height: 270px;     border-radius: 30px; position: relative;
+     " >
+              <input  type="file" name="file" id=" file" style= "position: absolute; top: 0;left: 0;width: 100%; height: 100%; opacity: 0; cursor: pointer;" >
+              <label for="file"style="display: block; position: absolute; top: 50%;left: 50%; transform: translate(-50% , -50% ); font: size 18px; color: rgba (0,0,0,0,0.5); padding: 10px; border-radius :10px; cursor: pointer; "></label>
+             </form>
+
+          </div>
+      </div>
+      <div class="back">
+          <div id="b1" class="back-content">
+              <h2> SOME INTRO</h2>
+            <div class="content">
+            
+
+                  <div class="pages">
+                    <div class="page">
+                      <textarea class="text-content" data-id="textarea1" placeholder="write something"></textarea>
+                    </div>
+                   
+                  </div>
+              
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Paper 2 -->
+  <div id="p2" class="paper">
+      <div class="front">
+          <div id="f2" class="front-content">
+              <h1>BEST MOMENT</h1>
+              <div class="pages">
+                <div class="page">
+                  <textarea class="text-content" data-id="textarea2"  placeholder="write something"></textarea>
+                </div>
+               
+              </div>
+          </div>
+      </div>
+      <div class="back">
+          <div id="b2" class="back-content">
+              <h1>CONTINUE</h1>
+              <div class="pages">
+                <div class="page">
+                  <textarea class="text-content" data-id="textarea3" placeholder="write something"></textarea>
+                </div>
+               
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Paper 3 -->
+  <div id="p3" class="paper">
+      <div class="front">
+          <div id="f3" class="front-content">
+              <h1>The purpose 
+              </br> of our 
+              lives </br> is 
+                to
+               be </br> Happy. </h1>
+              
+             
+          </div>
+      </div>
+      <div class="back">
+          <div id="b3" class="back-content">
+              <h1>The</br>
+                      Good </br>
+                           Bye</h1>
+          </div>
+      </div>
+  </div>
+</div>
+
+<button id="next-btn">
+  ➡️
+</button>
+
+  
+</body>
+</html>
